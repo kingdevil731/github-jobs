@@ -1,0 +1,44 @@
+div.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  height: 323.75px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  overflow: hidden;
+
+  img {
+    height: 159.75px;
+  }
+}
+
+div.detail {
+  height: 164px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+span:first-child {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 24px;
+  padding: 24px 24px 8px 24px;
+}
+span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 0px 24px 8px 24px;
+}
+span:last-child {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.45);
+}

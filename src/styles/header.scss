@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #001529;
+
+  p {
+    font-size: 1.7rem;
+    color: white;
+  }
+
+  img {
+    align-self: center;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

@@ -1,0 +1,7 @@
+div.results-grid {
+  display: grid;
+  margin: 25px 91px 25px 91px;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
